@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: my-app
+  name: argocd-estudo
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: my-app
+      app: argocd-estudo
   template:
     metadata:
       labels:
-        app: my-app
+        app: argocd-estudo
     spec:
       containers:
       - name: web
@@ -29,4 +29,4 @@ metadata:
   name: html-config
 data:
   index.html: |
-    <html><body><h1>Hello GitOps! teste</h1></body></html>
+    <html><body><h1>Hello GitOps! teste final inicial</h1></body></html>
