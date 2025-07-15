@@ -29,4 +29,4 @@ metadata:
   name: html-config
 data:
   index.html: |
-    <html><body><h1>TUDO e BAO, tudo!</h1></body></html>
+    <html><body><h1>TUDO e BAO, tudo d+!</h1></body></html>
